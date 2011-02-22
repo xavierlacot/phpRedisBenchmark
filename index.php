@@ -2,6 +2,7 @@
 $logfile = 'test.log';
 $libraries = array(
   'predis',
+  'redisent',
   'rediska'
 );
 $iterations = array(100, 1000, 10000);

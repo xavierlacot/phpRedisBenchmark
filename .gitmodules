@@ -4,3 +4,6 @@
 [submodule "lib/rediska"]
 	path = lib/rediska
 	url = https://github.com/Shumkov/Rediska.git
+[submodule "lib/redisent"]
+	path = lib/redisent
+	url = https://github.com/jdp/redisent.git
