@@ -2,9 +2,11 @@
 
 ## Introduction
 
-This repository contains a benchmark suite for PHP Redis libraries. The test suite currently supports predis, redisent and Rediska.
+This repository contains a benchmark suite for PHP Redis libraries. The test suite currently supports [predis](https://github.com/nrk/predis), [redisent](https://github.com/jdp/redisent) and [Rediska](http://rediska.geometria-lab.net/).
 
-## Results
+__Disclaimer__ : this is an alpha work, a two hours test. This suite is not intended to prove that a library is better or worse than an other one. It has just been made to show what to expect from common PHP Redis libraries (but of course, you should always look at the future plans of the developer, the extensibility, maintainability, ease of use, tools provided, etc.).
+
+## Raw results
 
     Library    100,000 get    100,000 set        memory
     predis      20.0992 s.     18.9528 s.    3118280 b.
@@ -17,4 +19,4 @@ Simply run the command:
 
     php index.php
 
-This will launch several php processes, each running a certain amount of iterations for each of the tested libraries.
+This will launch several php processes, each running a certain amount of iterations for each of the tested libraries. A log file will be generated, containing the test suite results.
