@@ -1,0 +1,6 @@
+[submodule "lib/predis"]
+	path = lib/predis
+	url = https://github.com/nrk/predis.git
+[submodule "lib/rediska"]
+	path = lib/rediska
+	url = https://github.com/Shumkov/Rediska.git
