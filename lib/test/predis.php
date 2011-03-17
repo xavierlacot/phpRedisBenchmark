@@ -1,5 +1,9 @@
 <?php
-require_once(__DIR__.'/../predis/lib/Predis.php');
+spl_autoload_register(function($classname)
+{
+    $path = __DIR__.'/../predis/lib/'.strtr($classname, '\\', '/').'.php';
+    require $path;
+});
 
 // set up predis
 $predis = new Predis\Client();
